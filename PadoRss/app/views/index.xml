@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="winNewArticle">
+		<View id="header" class="header">
+			<Button id="btnRefresh" onClick="btnRefresh_click"></Button>
+			<Label id="title" class="title">新規記事</Label>
+			<Button id="btnSearch" onClick="btnSearch_click"></Button>
+		</View>
+		<!-- tableview representing all master rows -->
+		<TableView id="tvTab1" onClick="tvTab1_click">
+			
+		</TableView>
+		
+		 <View id="footer" class="footer">
+	      	<Button id="btnTab1" class="btnTab" backgroundImage="/bn_newarticle_off.png" onClick="btnTab_click"></Button>
+	      	<Button id="btnTab2" class="btnTab" backgroundImage="/bn_favorite_off.png" onClick="btnTab_click"></Button>
+	      	<Button id="btnTab3" class="btnTab" backgroundImage="/bn_populararticles_off.png" onClick="btnTab_click"></Button>
+	      	<Button id="btnTab4" class="btnTab" backgroundImage="/bn_rss_off.png" onClick="btnTab_click"></Button>
+	      	<Button id="btnMenu" class="btnTab" backgroundImage="/bn_siteselection_off.png" onLongpress="btnMenu_LongPress"></Button>
+	     </View>
+	</Window>
+</Alloy>

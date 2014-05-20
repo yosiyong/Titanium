@@ -1,0 +1,10 @@
+"#popular": {
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: true
+}
+
+"#wbWebView": {
+	top: Alloy.Globals.tableTop,
+	bottom: '46dp'
+}

@@ -1,0 +1,21 @@
+"#winWebView": {
+	fullscreen: false,
+	navBarHidden: true
+},
+"#webView": {
+	top: Alloy.Globals.tableTop
+},
+"#btnClose": {
+	width:"30dp",
+	height:"30dp",
+	left:'20dp',
+	backgroundImage: "/back.png",
+	backgroundFocusedColor:'#000'
+},
+"#btnBookMark": {
+	width:"30dp",
+	height:"30dp",
+	right:'20dp',
+	backgroundImage:"/bookmark.png",
+	backgroundFocusedColor:'#000'
+}

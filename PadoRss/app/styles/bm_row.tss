@@ -1,0 +1,26 @@
+"#bm_row": {
+	backgroundColor: "#fff",
+	height: '50dp',
+	focusable: false
+},
+"#image": {
+    height: '30dp',
+    width: '30dp',
+    left: '5dp',
+    touchEnabled: false
+},
+"#title": {
+    height: '50dp',
+    font: {
+        fontSize: '16dp'
+    },
+    left: '50dp',
+    right: '50dp',
+    touchEnabled: false
+},
+"#remove": {
+	image: '/red_x.png',
+	right: 0,
+	height: '50dp',
+	width: '50dp'
+}

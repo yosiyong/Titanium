@@ -1,0 +1,31 @@
+"#row": {
+	backgroundColor: "#fff",
+	height: '70dp',
+    className: 'datarow',
+    hasChild: true
+} 
+
+"#title": {
+    height: '41dp',
+    font: {
+        fontSize: '16dp'
+    },
+    top:'5dp',
+    left: '5dp',
+    right: '2dp',
+    width:Ti.UI.SIZE,
+    touchEnabled: false
+}
+
+"#date": {
+    height: Ti.UI.SIZE,
+    width: '100dp',
+    right: '3dp',
+    bottom: '3dp',
+    color: '#444',
+    font: {
+        fontSize: '12dp'
+    },
+    textAlign: 'center',
+    touchEnabled: false
+}

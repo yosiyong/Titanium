@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="winWebView">
+		<View id="header" class="header">
+			<Button id="btnClose" onClick="btnClose_click"></Button>
+			<Label id="title" class="title"></Label>
+			<Button id="btnBookMark" onClick="openWindow"></Button>
+		</View>
+	
+        <WebView id="webView">
+        	
+        </WebView>
+		
+	</Window>
+</Alloy>

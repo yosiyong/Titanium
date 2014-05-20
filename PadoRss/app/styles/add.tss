@@ -1,0 +1,62 @@
+"#winAdd": {
+	fullscreen: false,
+	navBarHidden: true
+}
+"#tvAdd": {
+	top: Alloy.Globals.tableTop
+}
+
+".lblHeaderView":{
+	width: Ti.UI.FILL,
+	height:"30dp",
+	backgroundColor:"#000003",
+	color:"#fff",
+	font: {
+        fontSize: '20dp',
+        fontWeight: 'bold'
+    }
+}
+
+
+"TableViewRow" : {
+  height: "45dp"
+}
+
+"#txtTitle": {
+	width: "280dp",
+	height: "50dp",
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+".lblLabel": {
+	width: "280dp",
+	height: '25dp',
+	font: {
+        fontSize: '20dp'
+   },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+
+"#lblFolder": {
+	width: "220dp",
+	height: '25dp',
+	font: {
+        fontSize: '20dp'
+   },
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#btnClose": {
+	width:"30dp",
+	height:"30dp",
+	left:20,
+	backgroundImage: "/back.png"
+}
+"#btnSave": {
+	width:Ti.UI.SIZE,
+	height:'40dp',
+	backgroundColor:"#52739e",
+	color:'#fff',
+	right:20
+}

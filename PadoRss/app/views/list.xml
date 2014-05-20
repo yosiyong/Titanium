@@ -1,0 +1,13 @@
+<Alloy>
+	<Window>
+		<View id="header" class="header">
+			<Button id="btnClose" onClick="btnClose_click"></Button>
+			<Label id="title" class="title"></Label>
+			<Button id="btnRight" onClick="btnRight_click" title="新規フォルダ"></Button>
+		</View>
+		
+		<TableView id="tvBookmark" onClick="tvBookmark_click" onDelete="tvBookmark_delete">
+		</TableView>
+	
+	</Window>
+</Alloy>

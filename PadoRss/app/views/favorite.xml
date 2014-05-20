@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="winFavorite">
+		<!-- header -->
+		<View id="header" class="header">
+			<Label id="title" class="title">お気に入り</Label>
+		</View>
+		<TableView id="tvFavorite" onClick="tvFavorite_click" onDelete="tvFavorite_delete">
+     	</TableView>
+       <!-- footer -->
+	   <View id="footer" class="footer">
+	      	<Button id="btnTab1" class="btnTab" backgroundImage="/bn_newarticle_off.png" onClick="btnTab_click"></Button>
+	      	<Button id="btnTab2" class="btnTab" backgroundImage="/bn_favorite_off.png" onClick="btnTab_click"></Button>
+	      	<Button id="btnTab3" class="btnTab" backgroundImage="/bn_populararticles_off.png" onClick="btnTab_click"></Button>
+	      	<Button id="btnTab4" class="btnTab" backgroundImage="/bn_rss_off.png" onClick="btnTab_click"></Button>
+	      	<Button id="btnMenu" class="btnTab" backgroundImage="/bn_siteselection_off.png" onLongpress="btnMenu_LongPress"></Button>
+	    </View>
+	</Window>
+</Alloy>

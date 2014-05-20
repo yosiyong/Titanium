@@ -1,0 +1,16 @@
+"#btnClose": {
+	width:"30dp",
+	height:"30dp",
+	left:20,
+	backgroundImage: "/back.png"
+}
+"#btnRight": {
+	width:Ti.UI.SIZE,
+	height:'40dp',
+	backgroundColor:"#52739e",
+	color:'#fff',
+	right:20
+}
+"#tvBookmark": {
+	top: Alloy.Globals.tableTop
+}

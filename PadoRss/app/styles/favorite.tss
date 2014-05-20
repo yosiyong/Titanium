@@ -1,0 +1,10 @@
+"#winFavorite": {
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: true
+}
+
+"#tvFavorite": {
+	top: Alloy.Globals.tableTop,
+	bottom: '46dp'
+}

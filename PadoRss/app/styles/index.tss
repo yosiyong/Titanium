@@ -1,0 +1,20 @@
+"#winNewArticle": {
+	fullscreen: false,
+	exitOnClose: true
+}
+"#tvTab1": {
+	top: Alloy.Globals.tableTop,
+	bottom: '46dp'
+}
+"#btnRefresh": {
+	width:"30dp",
+	height:"30dp",
+	left:10,
+	backgroundImage: "/refresh.png"
+},
+"#btnSearch": {
+	width:"30dp",
+	height:"30dp",
+	right:10,
+	backgroundImage:"/search.png"
+}

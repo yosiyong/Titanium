@@ -1,0 +1,39 @@
+<Alloy>
+  <Window id="winAdd" title="ブックマーク">
+  	<View id="header" class="header">
+		<Button id="btnClose" onClick="btnClose_click"></Button>
+		<Label id="title" class="title"></Label>
+		<Button id="btnSave" onClick="saveBookmark" title="保存"></Button>
+	</View>
+  
+  	<TableView id="tvAdd">
+ 		<TableViewSection>
+ 			<HeaderView>
+				<Label class="lblHeaderView">タイトル</Label>
+			</HeaderView>
+			
+ 			<TableViewRow>
+ 				<TextField id="txtTitle"></TextField>
+ 			</TableViewRow>
+ 			
+ 		</TableViewSection>
+ 		<TableViewSection>
+ 			<HeaderView>
+				<Label class="lblHeaderView">URL</Label>
+			</HeaderView>
+			
+ 			<TableViewRow>
+ 				<Label id="lblUrl" class="lblLabel"></Label>
+ 			</TableViewRow>
+ 		</TableViewSection>
+ 		<TableViewSection>
+ 			<HeaderView>
+				<Label class="lblHeaderView">保存フォルダ</Label>
+			</HeaderView>
+ 			<TableViewRow id="rowFolder" hasChild="true" onClick="openFolder">
+ 				<Label id="lblFolder" text="フォルダ指定"></Label>
+ 			</TableViewRow>
+ 		</TableViewSection>
+ 	</TableView>  
+  </Window>
+</Alloy>
