@@ -1,0 +1,26 @@
+"#winNewArticle": {
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: true
+}
+
+"#tvTab1": {
+	top: Alloy.Globals.tableTop,
+	bottom: '46dp'
+}
+"#btnRefresh": {
+	width:"30dp",
+	height:"30dp",
+	left:10,
+	style:Ti.UI.iPhone.SystemButtonStyle.BORDERED,
+	backgroundImage: "/refresh.png"
+},
+"#btnSearch": {
+	width:"30dp",
+	height:"30dp",
+	right:10,
+	style:Ti.UI.iPhone.SystemButtonStyle.BORDERED,
+	backgroundImage:"/search.png"
+}
+
+

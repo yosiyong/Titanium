@@ -1,0 +1,80 @@
+".container": {
+	backgroundColor:"white"
+},
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+},
+".header": {
+	top: Alloy.Globals.top,
+    height: '45dp',
+    width: Ti.UI.FILL,
+    textAlign: 'center',
+    backgroundGradient: {
+        type: 'linear',
+        startPoint: { x:'0%', y:'0%' },
+        endPoint: { x:'0%', y:'100%' },
+        colors: [
+            { color: '#c1cedf', offset:'0.0' },
+            { color: '#597498', offset:'1.0' }
+        ]
+    },
+    color: '#fff',
+    font: {
+        fontSize: '24dp',
+        fontWeight: 'bold'
+    }
+},
+".title": {
+	color: "#fff",
+	font: {
+		fontSize: '24dp',
+		fontWeight: 'bold'
+	}
+},
+".footer": {
+	bottom: 0,
+	height: '50dp',
+	width: Ti.UI.FILL,
+	backgroundGradient: {
+		type: "linear",
+		startPoint: { x: "0%", y:"0%"},
+		endPoint:   { x: "0%", y:"100%"},
+		colors: [
+			{ color: "#000003", offset: 0.0 },
+			{ color: "#000003", offset: 1.0 }
+		]
+	}
+},
+".tabbedbar": {
+	style:Titanium.UI.iPhone.SystemButtonStyle.BAR,
+	index: 0,
+	height: 50,
+	left: 0
+},
+".btnTab1": {
+	index: 1,
+	height: 49,
+	width:63
+},
+".btnTab2": {
+	index: 2,
+	height: 49,
+	width:63
+},
+".btnTab3": {
+	index: 3,
+	height: 49,
+	width:63
+},
+"#btnTab4": {
+	index: 4,
+	height: 49,
+	width:63
+},
+".btnMenu": {
+	index: 5,
+	height: 50,
+	width:63
+}

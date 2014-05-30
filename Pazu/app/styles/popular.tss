@@ -1,0 +1,16 @@
+"#popular": {
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: true
+}
+"#title": {
+	color: "#fff",
+	font: {
+		fontSize: '24dp',
+		fontWeight: 'bold'
+	}
+},
+"#wbWebView": {
+	top: Alloy.Globals.tableTop,
+	bottom: '46dp'
+}

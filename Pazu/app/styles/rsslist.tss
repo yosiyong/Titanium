@@ -1,0 +1,17 @@
+"#winRssList": {
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: true
+}
+"#btnRefresh": {
+	width:"30dp",
+	height:"30dp",
+	left:10,
+	style:Ti.UI.iPhone.SystemButtonStyle.BORDERED,
+	backgroundImage: "/refresh.png"
+}
+
+"#tvRssList": {
+	top: Alloy.Globals.tableTop,
+	bottom: '46dp'
+}

@@ -1,0 +1,18 @@
+"#bm_row": {
+	backgroundColor: "#fff",
+	height: '50dp'
+},
+"#image": {
+    height: '30dp',
+    width: '30dp',
+    left: '5dp',
+    touchEnabled: false
+},
+"#title": {
+    height: '50dp',
+    font: {
+        fontSize: '16dp'
+    },
+    left: '50dp',
+    touchEnabled: false
+}

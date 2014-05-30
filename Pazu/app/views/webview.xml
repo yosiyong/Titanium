@@ -1,0 +1,11 @@
+<Alloy>
+	<Window tabBarHidden="true">
+		<RightNavButton>
+  			<Button id="btnBookmark" onClick="openWindow" systemButton="Ti.UI.iPhone.SystemButton.BOOKMARKS" />
+  		</RightNavButton>
+        <WebView id="webView">
+        	
+        </WebView>
+		
+	</Window>
+</Alloy>

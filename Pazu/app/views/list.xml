@@ -1,0 +1,16 @@
+<Alloy>
+	<Window tabBarHidden="true">
+		<RightNavButton>
+  			<Button id="btnRight" onClick="btnRight_click" title="新規フォルダ"></Button>
+  		</RightNavButton>
+		<TableView id="tvBookmark" onClick="tvBookmark_click" onDelete="tvBookmark_delete">
+		</TableView>
+		<AlertDialog id="dialog" onClick="dialog_click" title="フォルダ名" style="Ti.UI.iPhone.AlertDialogStyle.PLAIN_TEXT_INPUT" cancel="1">
+            <!-- The ButtonNames tag sets the buttonNames property. -->
+            <ButtonNames>
+                <ButtonName>追加</ButtonName>
+                <ButtonName>キャンセル</ButtonName>
+            </ButtonNames>
+        </AlertDialog>
+	</Window>
+</Alloy>

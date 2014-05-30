@@ -1,0 +1,24 @@
+<Alloy>
+	<NavigationWindow id="winNav" platform="ios">
+	<Window id="winNewArticle">
+		<!-- header -->
+		<View id="header" class="header">
+			<Button id="btnRefresh" onClick="btnRefresh_click"></Button>
+			<Label id="title" class="title">新規記事</Label>
+			<Button id="btnSearch" onClick="btnSearch_click"></Button>
+		</View>
+        <TableView id="tvTab1" onClick="tvTab1_click">
+		</TableView>
+         <!-- iOS: footer with buttons -->
+	    <View platform="ios" id="footer" class="footer">
+	      <ButtonBar onClick="tabbedbar_click" id="tabbedbar" class="tabbedbar">
+	      	<Button id="btnTab1" class="btnTab1" backgroundImage="/bn_newarticle_off.png"></Button>
+	      	<Button id="btnTab2" class="btnTab2" backgroundImage="/bn_favorite_off.png"></Button>
+	      	<Button id="btnTab3" class="btnTab3" backgroundImage="/bn_populararticles_off.png"></Button>
+	      	<Button id="btnTab4" class="btnTab4" backgroundImage="/bn_rss_off.png"></Button>
+	      	<Button id="btnMenu" class="btnMenu" backgroundImage="/bn_siteselection_off.png" onLongpress="btnMenu_LongPress"></Button>
+	      </ButtonBar>
+	    </View>
+	</Window>
+	</NavigationWindow>
+</Alloy>

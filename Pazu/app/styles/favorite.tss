@@ -1,0 +1,18 @@
+"#winFavorite": {
+	fullscreen: false,
+	navBarHidden: true,
+	exitOnClose: true
+}
+
+"#btnEdit": {
+	width:"40dp",
+	height:"30dp",
+	color:'#fff',
+	right:10,
+	style:Ti.UI.iPhone.SystemButtonStyle.BORDERED
+}
+
+"#tvFavorite": {
+	top: Alloy.Globals.tableTop,
+	bottom: '46dp'
+}

@@ -1,0 +1,25 @@
+"TableView" : {
+  style:Ti.UI.iPhone.TableViewStyle.GROUPED
+}
+
+"TableViewRow" : {
+  height: "45dp"
+}
+
+"TextField": {
+	width: "280dp",
+	height: 25,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"Label": {
+	width: "280dp",
+	height: 25,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#lblFolder": {
+	width: "220dp",
+	height: 25,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
